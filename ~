@@ -15,13 +15,13 @@ Options:
 After install, open Claude Code in your project and type /imp:help to confirm.
 ```
 
-## Philosophy
+Philosophy
 
-- Minimalism beats complexity
-- The prompt should be short enough to fully understand at a glance.
+Minimalism beats complexity
+The prompt should be short enough to fully understand at a glance.
 
-- Explicit control over implicit automation
-- Nothing should happen without your approval or awareness.
+Explicit control over implicit automation
+Nothing should happen without your approval or awareness.
 
-- Discomfort is a signal, not a flaw
-- Impostor syndrome isn’t ignored here—it’s the reason the system exists.
+Discomfort is a signal, not a flaw
+Impostor syndrome isn’t ignored here—it’s the reason the system exists.

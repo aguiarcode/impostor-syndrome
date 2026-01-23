@@ -1,0 +1,38 @@
+{
+  "name": "@aguiarcode/impostor-syndrome",
+  "version": "1.0.0",
+  "description": "A minimal, explicit workflow for developers using AI to write code. Full human control is non-negotiable.",
+  "main": "bin/install.js",
+  "bin": {
+    "impostor-syndrome": "bin/install.js"
+  },
+  "scripts": {
+    "test": "node bin/install.js --help"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "ai",
+    "workflow",
+    "cli",
+    "meta-prompt",
+    "developer-tools"
+  ],
+  "author": "João Aguiar <aguiarcode>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aguiarcode/impostor-syndrome.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aguiarcode/impostor-syndrome/issues"
+  },
+  "homepage": "https://github.com/aguiarcode/impostor-syndrome#readme",
+  "files": [
+    "bin/",
+    "commands/"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

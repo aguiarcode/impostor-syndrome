@@ -5,6 +5,8 @@
 
 Using AI to write code always made me feel like an impostor. This project accepts the discomfort and turns it into a minimal, explicit workflow.
 
+**Requires [Claude Code](https://docs.anthropic.com/en/docs/claude-code)** - Anthropic's official CLI tool. These commands won't work in the Claude web interface or API.
+
 These commands / meta-prompts shine brightest when you already know how to code. Their real power is acceleration and structure - not teaching fundamentals. If you're still learning syntax, debugging patterns, or system design, the value drops sharply.
 
 **Full human control is non-negotiable.**

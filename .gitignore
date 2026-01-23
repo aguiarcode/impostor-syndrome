@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor directories
+.vscode/
+.idea/
+
+# Local Claude development directory
+# The authoritative commands are in commands/imp/
+# .claude/ is created during local install and should not be committed
+.claude/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Optional npm cache directory
+.npm
+
+# Build output (if any future builds)
+dist/
+build/

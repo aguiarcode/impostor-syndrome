@@ -4,7 +4,9 @@ Execute the approved plan.
 
 ## Instructions
 
-1. Work in small, reviewable chunks
-2. After each chunk, pause and summarize what you did
-3. Wait for confirmation before continuing to the next chunk
-4. If the plan changes, stop and suggest running imp:plan again
+1. Work in small chunks (one function, one component, one logical unit)
+2. After each chunk, summarize what you did and what's next
+3. Wait for confirmation before continuing
+4. If scope changes, stop and suggest imp:plan again
+
+Do not skip ahead. One chunk at a time.

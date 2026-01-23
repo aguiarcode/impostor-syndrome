@@ -1,23 +1,30 @@
 # imp:help
 
+Display this reference to the user.
+
+---
+
 ## Commands
 
-| Command | Purpose |
-|---------|---------|
-| imp:plan | Describe what you want. AI proposes approach. No code yet. |
-| imp:do | AI executes approved plan in small chunks. |
-| imp:review | AI shows what changed. You accept, reject, or tweak. |
-| imp:help | This reference. |
+| Command | What it does |
+|---------|--------------|
+| `/imp:plan` | You describe the goal. AI analyzes and proposes an approach. No code written. |
+| `/imp:do` | AI implements the approved plan in small, reviewable chunks. |
+| `/imp:review` | AI shows exactly what changed. You accept, reject, or request tweaks. |
+| `/imp:help` | Shows this reference. |
 
-## Workflow
+## The Workflow
 
 ```
-You think → imp:plan → approve? → imp:do → imp:review → accept?
-                ↳ no → refine                    ↳ no → tweak
+1. You have an idea
+2. /imp:plan → AI proposes approach → You approve or refine
+3. /imp:do   → AI codes one chunk   → You confirm to continue
+4. /imp:review → AI shows diff      → You accept, reject, or tweak
+5. Repeat until done
 ```
 
-## Philosophy
+## Core Principles
 
-- AI codes. You control.
-- Nothing happens without approval.
-- Discomfort is a signal, not a flaw.
+- **You control. AI executes.** Nothing happens without your explicit approval.
+- **Small steps only.** No large changes without checkpoints.
+- **Transparency always.** You see every change before it sticks.

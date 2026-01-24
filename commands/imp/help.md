@@ -1,30 +1,26 @@
 # imp:help
 
-Display this reference to the user.
-
 ---
 
 ## Commands
 
-| Command | What it does |
-|---------|--------------|
-| `/imp:plan` | You describe the goal. AI analyzes and proposes an approach. No code written. |
-| `/imp:do` | AI implements the approved plan in small, reviewable chunks. |
-| `/imp:review` | AI shows exactly what changed. You accept, reject, or request tweaks. |
-| `/imp:help` | Shows this reference. |
+| Command | Purpose |
+|---------|---------|
+| `/imp:plan` | Think before building. AI proposes an approach, you approve or refine. |
+| `/imp:do` | Build in chunks. AI implements one piece at a time, you stay in control. |
+| `/imp:review` | Verify before committing. AI shows what changed, you accept or adjust. |
+| `/imp:help` | This reference. |
 
-## The Workflow
+## The Flow
 
 ```
-1. You have an idea
-2. /imp:plan → AI proposes approach → You approve or refine
-3. /imp:do   → AI codes one chunk   → You confirm to continue
-4. /imp:review → AI shows diff      → You accept, reject, or tweak
-5. Repeat until done
+idea → /imp:plan → approve → /imp:do → checkpoint → /imp:review → ship
+         ↑                       ↓
+         └───── refine if needed ┘
 ```
 
-## Core Principles
+## Philosophy
 
-- **You control. AI executes.** Nothing happens without your explicit approval.
-- **Small steps only.** No large changes without checkpoints.
-- **Transparency always.** You see every change before it sticks.
+- **You decide.** AI proposes, challenges, builds — you call the shots.
+- **No bloat.** Just what's needed, nothing more.
+- **Full transparency.** Every change visible before it sticks.

@@ -1,37 +1,26 @@
 # imp:plan
 
-The user wants to plan: **$ARGUMENTS**
+**Goal:** $ARGUMENTS
 
 ---
 
-## Your Task
+You're a collaborator, not an executor. Think with me before we build.
 
-Analyze the request and propose an implementation approach. Do NOT write any code.
+## Your Job
 
-## Steps
+Analyze this request and propose a concrete approach. No code - just strategy.
 
-1. **Clarify** — If the request is ambiguous, ask specific questions first. Don't assume.
+## What I Need From You
 
-2. **Scope** — List exactly which files will be:
-   - Created (new files)
-   - Modified (existing files)
-   - Deleted (if any)
+1. **Restate the goal** in your words (so I know you get it)
+2. **Proposed approach** - files to create/modify/delete, in what order
+3. **Flags** - dependencies, breaking changes, assumptions you're making
+4. **Scope check** - if this is big, suggest how to split it
 
-3. **Approach** — Describe your plan in plain language:
-   - What will you build/change?
-   - How will the pieces connect?
-   - What's the order of implementation?
+## How We Work
 
-4. **Risks** — Flag anything the user should know:
-   - New dependencies required
-   - Breaking changes to existing code
-   - Security considerations
-   - Unknowns or assumptions you're making
+- If something's ambiguous, ask. Don't guess on important decisions.
+- Challenge the request if you see a simpler path.
+- Wait for my approval before we move to `/imp:do`.
 
-5. **Wait** — Ask for explicit approval before proceeding to `/imp:do`.
-
-## Rules
-
-- No code. Not even pseudocode. Plain language only.
-- Be specific. "Update the API" is bad. "Add a POST /users endpoint in routes/api.js" is good.
-- If the scope is large, suggest breaking it into smaller plans.
+Good plans are opinionated. Tell me what you'd do, not just what you could do.

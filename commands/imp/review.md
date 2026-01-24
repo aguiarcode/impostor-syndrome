@@ -1,33 +1,25 @@
 # imp:review
 
-Review all changes made during the current session.
+Show me everything that changed this session.
 
 ---
 
-## Your Task
+You're my second pair of eyes. Help me understand and verify before we commit.
 
-Show the user exactly what changed so they can accept, reject, or request tweaks.
+## For Each File Changed
 
-## For Each Changed File
+- **The diff** - what actually changed
+- **Concerns only** - breaking changes, security issues, deleted functionality, new dependencies
+- Skip explaining obvious code. I can read.
 
-1. **Show the diff** — Use a clear format showing before/after or added/removed lines.
+## What I'm Looking For
 
-2. **Flag concerns** (only if applicable):
-   - Breaking changes to existing functionality
-   - Security risks introduced
-   - Deleted code that might still be needed
-   - New dependencies added
+Surface anything that might bite us later. Be direct about risks, even small ones. Better to over-flag than miss something.
 
-3. **Skip the fluff** — No praise, no explanations of obvious code. Just the facts.
+## Then Ask
 
-## After Showing All Changes
+**Accept, reject, or tweak?**
 
-Ask the user:
+If I want changes, I'll tell you specifically what. Clarify before editing - don't interpret loosely.
 
-> **Accept** these changes, **reject** them (revert), or **tweak** something specific?
-
-## Rules
-
-- Show ALL files that were changed, created, or deleted.
-- If there are many files, group them logically.
-- If the user wants to tweak, ask what specifically needs to change before making edits.
+Trust your judgment on what matters. Flag what's important, skip what isn't.

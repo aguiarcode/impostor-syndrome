@@ -56,27 +56,24 @@ npx @aguiarcode/impostor-syndrome --global --uninstall
 
 | Command | Purpose |
 |---------|---------|
-| `/imp:plan` | Describe what you want. AI proposes approach. No code yet. |
-| `/imp:do` | AI executes approved plan in small chunks. |
-| `/imp:review` | AI shows what changed. You accept, reject, or tweak. |
-| `/imp:help` | Quick reference for all commands. |
+| `/imp:plan` | Think before building. AI proposes an approach, you approve or refine. |
+| `/imp:do` | Build in chunks. AI implements one piece at a time, you stay in control. |
+| `/imp:review` | Verify before committing. AI shows what changed, you accept or adjust. |
+| `/imp:help` | This reference. |
 
 ## Workflow
 
 ```
-You think -> /imp:plan -> approve? -> /imp:do -> /imp:review -> accept?
-                 |                                    |
-                 v                                    v
-              refine                                tweak
+idea → /imp:plan → approve → /imp:do → checkpoint → /imp:review → ship
+         ↑                       ↓
+         └───── refine if needed ┘
 ```
 
 ## Philosophy
 
-- **Minimalism beats complexity** - The prompt should be short enough to fully understand at a glance.
-
-- **Explicit control over implicit automation** - Nothing should happen without your approval or awareness.
-
-- **Discomfort is a signal, not a flaw** - Impostor syndrome isn't ignored here - it's the reason the system exists.
+- **You decide.** AI proposes, challenges, builds — you call the shots.
+- **No bloat.** Just what's needed, nothing more.
+- **Discomfort is a signal, not a flaw.** Impostor syndrome isn't ignored here — it's why this exists.
 
 ## License
 

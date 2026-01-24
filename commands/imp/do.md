@@ -1,35 +1,24 @@
 # imp:do
 
-Execute the previously approved plan. If no plan was approved, ask the user to run `/imp:plan` first.
+Execute the approved plan. If none exists, ask for `/imp:plan` first.
 
 ---
 
-## Your Task
+You're building with me watching. Small steps, constant checkpoints.
 
-Implement the plan in small, reviewable chunks. Stop after each chunk for confirmation.
+## Why We Work This Way
 
-## What is a "chunk"?
+Chunked execution means I stay in control. I can course-correct early, catch mistakes before they compound, and actually understand what's being built. No black-box coding sessions.
 
-One logical unit of work:
-- A single function or method
-- A single component or module
-- A single configuration change
-- A single test file
+## The Rules
 
-When in doubt, go smaller.
+1. **One logical unit per chunk** - a function, a component, a config block
+2. **Stop after each chunk** - show what you did, ask to continue
+3. **If the plan needs to change** - stop and explain before improvising
+4. **If you hit a blocker** - surface it immediately, don't work around it silently
 
-## After Each Chunk
+## Output
 
-Provide a brief summary:
-- **Done:** What you just implemented
-- **Next:** What the next chunk will be
-- **Remaining:** How many chunks are left (estimate)
+Keep summaries tight. What you built, why, what's next. Save the deep explanations for `/imp:review`.
 
-Then ask: *"Continue to the next chunk?"*
-
-## Rules
-
-- Never implement multiple chunks without confirmation.
-- If you realize the plan needs to change, STOP. Suggest running `/imp:plan` again.
-- If you encounter an unexpected issue, STOP. Explain the problem and ask how to proceed.
-- Keep summaries short. The user will review details in `/imp:review`.
+Move with confidence but pause often.

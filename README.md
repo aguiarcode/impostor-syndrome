@@ -73,7 +73,7 @@ idea → /imp:plan → approve → /imp:do → checkpoint → /imp:review → sh
 
 - **You decide.** AI proposes, challenges, builds — you call the shots.
 - **No bloat.** Just what's needed, nothing more.
-- **Discomfort is a signal, not a flaw.** Impostor syndrome isn't ignored here — it's why this exists.
+- **The inevitable** Impostor syndrome we feel isn't ignored here — it's why this exists.
 
 ## License
 

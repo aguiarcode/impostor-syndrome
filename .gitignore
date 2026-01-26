@@ -11,7 +11,7 @@ Thumbs.db
 
 # Local Claude development directory
 # The authoritative commands are in commands/imp/
-# .claude/ is created during local install and should not be committed
+# .claude/ is created during local install
 .claude/
 
 # Logs

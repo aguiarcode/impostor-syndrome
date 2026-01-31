@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/@aguiarcode/impostor-syndrome.svg)](https://www.npmjs.com/package/@aguiarcode/impostor-syndrome)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Using AI to write code always made me feel like an impostor. This project accepts the discomfort and turns it into a minimal, explicit workflow.
+AI tooling amplifies impostor syndrome for many developers. This project accepts that reality and channels it into an explicit, human-controlled workflow.
 
 **Requires [Claude Code](https://docs.anthropic.com/en/docs/claude-code)** - Anthropic's official CLI tool. These commands won't work in the Claude web interface or API.
 

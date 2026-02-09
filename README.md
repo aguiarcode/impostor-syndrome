@@ -72,7 +72,7 @@ idea → /imp:plan → approve → /imp:do → checkpoint → /imp:review → sh
 ## Philosophy
 
 - **You decide.** AI proposes, challenges, builds — you call the shots.
-- **No bloat.** Just what's needed, nothing more.
+- **No bloat.** Minimalism is the key.
 - **The inevitable** Impostor syndrome we feel isn't ignored here — it's why this exists.
 
 ## License
